@@ -1,0 +1,211 @@
+body {
+    font-family: "Josefin Sans", cursive;
+    font-size: 1.2rem;
+    padding-top: 70px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+.section-heading {
+    font-family: "Leckerli One", cursive;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 0;
+}
+
+hr {
+    width: 200px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #000;
+    border-width: 5px;
+    margin: 50px auto;
+}
+
+.container-fluid {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.vertical-center {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* SECTION COLORS */
+
+.white-section {
+    background-color: #fff;
+}
+
+.blue-section {
+    background-color: #d7f9f8;
+}
+
+.purple-section {
+    background-color: #7b60c9;
+}
+
+.black-section {
+    background-color: #000;
+}
+
+/* TEXT COLORS */
+
+.text-blue-purple {
+    color: #606ec9;
+}
+
+.text-light-purple {
+    color: #6660c9;
+}
+
+.text-grey {
+    color: #696969;
+}
+
+/* ICONS */
+
+.hobbies-icon {
+    display: inline-block;
+    font-size: 500%;
+    color: #606ec9;
+}
+
+.hobbies-icon:hover {
+    color: #6660c9;
+}
+
+.hobbies-icon-left {
+    margin-right: 30px;
+}
+
+.hobbies-icon-right {
+    margin-left: 30px;
+}
+
+.contact-icon {
+    font-size: 200%;
+    padding: 0 15px;
+    margin-top: 30px;
+}
+
+.fa-linkedin {
+    color: #0077b5;
+}
+
+.fa-facebook {
+    color: #1877f2 ;
+}
+
+.fa-github {
+    color: #000;
+}
+
+/* BUTTONS */
+
+.resume-button {
+    background-color: #6660c9;;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+/* NAVIGATION BAR */
+
+.navbar-brand {
+    font-family: "Leckerli One", cursive;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+/* TITLE SECTION */
+
+.title-text-lg {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.title-text-m {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+title-image {
+    min-width: 350px;
+    top: 50%;
+}
+
+/* HOBBIES SECTION */
+
+.hobbies-row {
+    width: 65%;
+    margin: 40px auto 40px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies-text {
+    min-width: 400px;
+    display: inline-block;
+}
+
+/* PORTFOLIO SECTION */
+
+.course-image {
+    border: 3px solid black;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.course-certificate-image {
+    border: 3px solid black;
+    width: 100%;
+}
+
+.project-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-box {
+    text-align: center;
+}
+
+.project-image {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    border: 3px solid black;
+}
+
+/* FOOTER */
+
+#footer {
+    padding: 15px 0;
+}
+
+.footer-text {
+    text-align: center;
+    color: #fff;
+}
